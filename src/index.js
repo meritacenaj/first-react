@@ -2,8 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import App2 from './app2';
-import HelloUSer from './helloUser';
+
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -13,18 +12,7 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// ReactDOM.render(
-//   <React.StrictMode>
-//   <App2 />
-// </React.StrictMode>,
-// document.getElementById('root2')
-// )
-// ReactDOM.render(
-//   <React.StrictMode>
-//   <HelloUSer />
-// </React.StrictMode>,
-// document.getElementById('root2')
-// )
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
